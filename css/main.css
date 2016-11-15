@@ -1,17 +1,44 @@
+.enjoy-css 
+{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 16px/1 Verdana, Geneva, sans-serif;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+ // _____ GLOBAL _____
+ // Global CSS goes here i.e. body{}, a{} h1{}, etc.
+
+ // _____ HEADER _____
+ // All CSS related to elements and layout in the header
+
+ // _____ CONTENT _____
+ // All CSS related to the main content areas
+
+ // _____ SIDEBAR _____
+ // If applicable
+
+ // _____ FOOTER _____
+ // You get the point..
+
 body { margin: 60px auto; width: 70%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p, ul { font-size: 1em; line-height: 1.4em; color: #333; }
+p, ul { font-size: normal 16px/1; line-height: normal; color: black; }
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1, h2, h3, h4 { font-family: 'Verdana', 'Geneva', sans-serif; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 14px/1; font-family: 'Verdana', 'Geneva', sans-serif; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
@@ -20,10 +47,10 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
 
-/* CV */
+/* CV 
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
 .cv h2 { font-size: 2em; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+.cv .download { float: right; font-size: .8em; text-transform: uppercase; } */
